@@ -1,0 +1,5 @@
+"0","pca_missile <- PCA(missile[, -c(1, 2)], scale.unit = TRUE, graph = FALSE)"
+"0",""
+"0","fviz_pca_biplot(pca_missile, repel = TRUE, labelsize = 5, pointsize = 1, label =""var"", "
+"0","                habillage= as.factor(missile$type), invisible=""quali"") +"
+"0","  geom_text_repel(aes(label = missile$name), size = 5) "

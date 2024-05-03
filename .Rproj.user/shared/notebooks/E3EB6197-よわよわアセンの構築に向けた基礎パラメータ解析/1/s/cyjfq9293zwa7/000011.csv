@@ -1,0 +1,4 @@
+"0","pca_ARM <- PCA(ARM[, -1], scale.unit = TRUE, graph = FALSE)"
+"0",""
+"0","fviz_pca_biplot(pca_ARM, repel = TRUE, labelsize = 5, pointsize = 0.1, label =""var"") +"
+"0","  geom_text(aes(label = ARM$name), size = 5) "
